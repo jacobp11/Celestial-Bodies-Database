@@ -124,7 +124,8 @@ CREATE TABLE public.moon (
     moon_id integer NOT NULL,
     name character varying(30) NOT NULL,
     planet_id integer,
-    description character varying(30)
+    description character varying(30),
+    type text
 );
 
 
@@ -295,55 +296,55 @@ INSERT INTO public.galaxy VALUES (8, 'Butterfly', true, NULL, NULL, NULL);
 -- Data for Name: moon; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.moon VALUES (1, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (2, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (3, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (4, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (5, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (6, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (7, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (8, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (9, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (10, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (11, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (12, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (13, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (14, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (15, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (16, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (17, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (18, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (19, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (20, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (21, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (22, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (23, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (24, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (25, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (26, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (27, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (28, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (29, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (30, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (31, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (32, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (33, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (34, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (35, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (36, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (37, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (38, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (39, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (40, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (41, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (42, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (43, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (44, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (45, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (46, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (47, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (48, 'phobos', NULL, NULL);
-INSERT INTO public.moon VALUES (49, 'phobos', NULL, NULL);
+INSERT INTO public.moon VALUES (1, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (2, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (3, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (4, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (5, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (6, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (7, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (8, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (9, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (10, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (11, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (12, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (13, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (14, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (15, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (16, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (17, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (18, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (19, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (20, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (21, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (22, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (23, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (24, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (25, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (26, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (27, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (28, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (29, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (30, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (31, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (32, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (33, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (34, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (35, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (36, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (37, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (38, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (39, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (40, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (41, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (42, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (43, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (44, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (45, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (46, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (47, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (48, 'phobos', 1, NULL, NULL);
+INSERT INTO public.moon VALUES (49, 'phobos', 1, NULL, NULL);
 
 
 --
@@ -356,6 +357,26 @@ INSERT INTO public.planet VALUES (3, 'Vega', 3, 6, NULL, NULL, 1, NULL);
 INSERT INTO public.planet VALUES (4, 'Fomalhaut', 4, 6, NULL, NULL, 1, NULL);
 INSERT INTO public.planet VALUES (5, 'Denebola', 5, 6, NULL, NULL, 1, NULL);
 INSERT INTO public.planet VALUES (6, 'Delta Capricorni', 6, 6, NULL, NULL, 1, NULL);
+INSERT INTO public.planet VALUES (7, 'Unknown', 7, 7, NULL, NULL, NULL, NULL);
+INSERT INTO public.planet VALUES (8, 'Unknown', 7, 7, NULL, NULL, NULL, NULL);
+INSERT INTO public.planet VALUES (9, 'Unknown', 7, 7, NULL, NULL, NULL, NULL);
+INSERT INTO public.planet VALUES (10, 'Unknown', 7, 7, NULL, NULL, NULL, NULL);
+INSERT INTO public.planet VALUES (11, 'Unknown', 7, 7, NULL, NULL, NULL, NULL);
+INSERT INTO public.planet VALUES (12, 'Unknown', 7, 7, NULL, NULL, NULL, NULL);
+INSERT INTO public.planet VALUES (13, 'Unknown', 7, 7, NULL, NULL, NULL, NULL);
+INSERT INTO public.planet VALUES (14, 'Unknown', 7, 7, NULL, NULL, NULL, NULL);
+INSERT INTO public.planet VALUES (15, 'Unknown', 7, 7, NULL, NULL, NULL, NULL);
+INSERT INTO public.planet VALUES (16, 'Unknown', 7, 7, NULL, NULL, NULL, NULL);
+INSERT INTO public.planet VALUES (17, 'Unknown', 7, 7, NULL, NULL, NULL, NULL);
+INSERT INTO public.planet VALUES (18, 'Unknown', 7, 7, NULL, NULL, NULL, NULL);
+INSERT INTO public.planet VALUES (19, 'Unknown', 7, 7, NULL, NULL, NULL, NULL);
+INSERT INTO public.planet VALUES (20, 'Unknown', 7, 7, NULL, NULL, NULL, NULL);
+INSERT INTO public.planet VALUES (21, 'Unknown', 7, 7, NULL, NULL, NULL, NULL);
+INSERT INTO public.planet VALUES (22, 'Unknown', 7, 7, NULL, NULL, NULL, NULL);
+INSERT INTO public.planet VALUES (23, 'Unknown', 7, 7, NULL, NULL, NULL, NULL);
+INSERT INTO public.planet VALUES (24, 'Unknown', 7, 7, NULL, NULL, NULL, NULL);
+INSERT INTO public.planet VALUES (25, 'Unknown', 7, 7, NULL, NULL, NULL, NULL);
+INSERT INTO public.planet VALUES (26, 'Unknown', 7, 7, NULL, NULL, NULL, NULL);
 
 
 --
@@ -365,6 +386,10 @@ INSERT INTO public.planet VALUES (6, 'Delta Capricorni', 6, 6, NULL, NULL, 1, NU
 INSERT INTO public.star VALUES (6, 'big', 1, true, NULL, NULL);
 INSERT INTO public.star VALUES (7, 'small', 1, true, NULL, NULL);
 INSERT INTO public.star VALUES (8, 'red', 1, true, NULL, NULL);
+INSERT INTO public.star VALUES (9, 'blue', 2, true, NULL, NULL);
+INSERT INTO public.star VALUES (12, 'green', 2, true, NULL, NULL);
+INSERT INTO public.star VALUES (13, 'yellow', 2, true, NULL, NULL);
+INSERT INTO public.star VALUES (14, 'mediumsmall', 2, true, NULL, NULL);
 
 
 --
@@ -392,14 +417,14 @@ SELECT pg_catalog.setval('public.moon_moon_id_seq', 49, true);
 -- Name: planet_planet_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.planet_planet_id_seq', 6, true);
+SELECT pg_catalog.setval('public.planet_planet_id_seq', 26, true);
 
 
 --
 -- Name: star_star_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.star_star_id_seq', 8, true);
+SELECT pg_catalog.setval('public.star_star_id_seq', 14, true);
 
 
 --
